@@ -3,6 +3,6 @@
 public interface IAuditable
 {
     DateTime CreatedAt { get; }
-    DateTime? ModifedAt { get; }
+    DateTime? ModifiedAt { get; }
     void TouchModifiedAt();
 }
